@@ -1,7 +1,7 @@
 from selenium.common.exceptions import NoSuchElementException
 
 
-def test_options(browser):
+def test_add_to_basket_presence(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.get(link)
 
